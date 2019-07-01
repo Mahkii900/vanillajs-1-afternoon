@@ -7,3 +7,9 @@ function setCard() {
     card.style.color = colorSet.value
 }
 
+function resetCards() {
+    document.getElementById('diamonds').style.color = 'gray'
+    document.getElementById('hearts').style.color = 'gray'
+    document.getElementById('clubs').style.color = 'gray'
+    document.getElementById('spades').style.color = 'gray'
+}
