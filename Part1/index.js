@@ -1,3 +1,4 @@
+console.log("Goodbye Cruel World")
 let board = []
 
 function play(clickedId) {
